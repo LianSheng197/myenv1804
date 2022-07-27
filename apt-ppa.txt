@@ -1,0 +1,221 @@
+apt list --installed > apt-installed.txt/etc/apt/sources.list:# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+/etc/apt/sources.list:
+/etc/apt/sources.list:# newer versions of the distribution.
+/etc/apt/sources.list:deb http://tw.archive.ubuntu.com/ubuntu/ bionic main restricted
+/etc/apt/sources.list:deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic main restricted
+/etc/apt/sources.list:
+/etc/apt/sources.list:## Major bug fix updates produced after the final release of the
+/etc/apt/sources.list:## distribution.
+/etc/apt/sources.list:deb http://tw.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+/etc/apt/sources.list:deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+/etc/apt/sources.list:
+/etc/apt/sources.list:## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+/etc/apt/sources.list:## team. Also, please note that software in universe WILL NOT receive any
+/etc/apt/sources.list:## review or updates from the Ubuntu security team.
+/etc/apt/sources.list:deb http://tw.archive.ubuntu.com/ubuntu/ bionic universe
+/etc/apt/sources.list:deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic universe
+/etc/apt/sources.list:deb http://tw.archive.ubuntu.com/ubuntu/ bionic-updates universe
+/etc/apt/sources.list:deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic-updates universe
+/etc/apt/sources.list:
+/etc/apt/sources.list:## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu 
+/etc/apt/sources.list:## team, and may not be under a free licence. Please satisfy yourself as to 
+/etc/apt/sources.list:## your rights to use the software. Also, please note that software in 
+/etc/apt/sources.list:## multiverse WILL NOT receive any review or updates from the Ubuntu
+/etc/apt/sources.list:## security team.
+/etc/apt/sources.list:deb http://tw.archive.ubuntu.com/ubuntu/ bionic multiverse
+/etc/apt/sources.list:deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic multiverse
+/etc/apt/sources.list:deb http://tw.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+/etc/apt/sources.list:deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+/etc/apt/sources.list:
+/etc/apt/sources.list:## N.B. software from this repository may not have been tested as
+/etc/apt/sources.list:## extensively as that contained in the main release, although it includes
+/etc/apt/sources.list:## newer versions of some applications which may provide useful features.
+/etc/apt/sources.list:## Also, please note that software in backports WILL NOT receive any review
+/etc/apt/sources.list:## or updates from the Ubuntu security team.
+/etc/apt/sources.list:deb http://tw.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+/etc/apt/sources.list:deb-src http://tw.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+/etc/apt/sources.list:
+/etc/apt/sources.list:## Uncomment the following two lines to add software from Canonical's
+/etc/apt/sources.list:## 'partner' repository.
+/etc/apt/sources.list:## This software is not part of Ubuntu, but is offered by Canonical and the
+/etc/apt/sources.list:## respective vendors as a service to Ubuntu users.
+/etc/apt/sources.list:# deb http://archive.canonical.com/ubuntu bionic partner
+/etc/apt/sources.list:deb-src http://archive.canonical.com/ubuntu bionic partner
+/etc/apt/sources.list:
+/etc/apt/sources.list:deb http://security.ubuntu.com/ubuntu bionic-security main restricted
+/etc/apt/sources.list:deb-src http://security.ubuntu.com/ubuntu bionic-security main restricted
+/etc/apt/sources.list:deb http://security.ubuntu.com/ubuntu bionic-security universe
+/etc/apt/sources.list:deb-src http://security.ubuntu.com/ubuntu bionic-security universe
+/etc/apt/sources.list:deb http://security.ubuntu.com/ubuntu bionic-security multiverse
+/etc/apt/sources.list:deb-src http://security.ubuntu.com/ubuntu bionic-security multiverse
+/etc/apt/sources.list:deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main
+/etc/apt/sources.list:deb-src https://dl.winehq.org/wine-builds/ubuntu/ bionic main
+/etc/apt/sources.list:# deb https://apt.kitware.com/ubuntu/ bionic main
+/etc/apt/sources.list:# deb-src https://apt.kitware.com/ubuntu/ bionic main
+/etc/apt/sources.list:deb [arch=arm64,ppc64el,amd64] https://ftp.ubuntu-tw.org/mirror/mariadb/repo/10.6/ubuntu bionic main
+/etc/apt/sources.list:# deb-src [arch=arm64,ppc64el,amd64] https://ftp.ubuntu-tw.org/mirror/mariadb/repo/10.6/ubuntu bionic main
+/etc/apt/sources.list.d/amanusk-ubuntu-python-s-tui-bionic.list:deb http://ppa.launchpad.net/amanusk/python-s-tui/ubuntu bionic main
+/etc/apt/sources.list.d/amanusk-ubuntu-python-s-tui-bionic.list:# deb-src http://ppa.launchpad.net/amanusk/python-s-tui/ubuntu bionic main
+/etc/apt/sources.list.d/amanusk-ubuntu-python-s-tui-bionic.list.save:deb http://ppa.launchpad.net/amanusk/python-s-tui/ubuntu bionic main
+/etc/apt/sources.list.d/amanusk-ubuntu-python-s-tui-bionic.list.save:# deb-src http://ppa.launchpad.net/amanusk/python-s-tui/ubuntu bionic main
+/etc/apt/sources.list.d/audio-recorder-ubuntu-ppa-bionic.list:deb http://ppa.launchpad.net/audio-recorder/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/audio-recorder-ubuntu-ppa-bionic.list:# deb-src http://ppa.launchpad.net/audio-recorder/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/audio-recorder-ubuntu-ppa-bionic.list.save:deb http://ppa.launchpad.net/audio-recorder/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/audio-recorder-ubuntu-ppa-bionic.list.save:# deb-src http://ppa.launchpad.net/audio-recorder/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/chrome-remote-desktop.list:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/chrome-remote-desktop.list:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/chrome-remote-desktop.list:deb [arch=amd64] http://dl.google.com/linux/chrome-remote-desktop/deb/ stable main
+/etc/apt/sources.list.d/chrome-remote-desktop.list.save:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/chrome-remote-desktop.list.save:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/chrome-remote-desktop.list.save:deb [arch=amd64] http://dl.google.com/linux/chrome-remote-desktop/deb/ stable main
+/etc/apt/sources.list.d/deadsnakes-ubuntu-ppa-bionic.list:deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/deadsnakes-ubuntu-ppa-bionic.list:# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/deadsnakes-ubuntu-ppa-bionic.list.save:deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/deadsnakes-ubuntu-ppa-bionic.list.save:# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/dropbox.list:deb [arch=i386,amd64] http://linux.dropbox.com/ubuntu bionic main
+/etc/apt/sources.list.d/dropbox.list.save:deb [arch=i386,amd64] http://linux.dropbox.com/ubuntu bionic main
+/etc/apt/sources.list.d/edd-ubuntu-misc-bionic.list:deb http://ppa.launchpad.net/edd/misc/ubuntu bionic main
+/etc/apt/sources.list.d/edd-ubuntu-misc-bionic.list:# deb-src http://ppa.launchpad.net/edd/misc/ubuntu bionic main
+/etc/apt/sources.list.d/edd-ubuntu-misc-bionic.list.save:deb http://ppa.launchpad.net/edd/misc/ubuntu bionic main
+/etc/apt/sources.list.d/edd-ubuntu-misc-bionic.list.save:# deb-src http://ppa.launchpad.net/edd/misc/ubuntu bionic main
+/etc/apt/sources.list.d/embrosyn-ubuntu-cinnamon-bionic.list:# deb http://ppa.launchpad.net/embrosyn/cinnamon/ubuntu bionic main
+/etc/apt/sources.list.d/embrosyn-ubuntu-cinnamon-bionic.list:# deb-src http://ppa.launchpad.net/embrosyn/cinnamon/ubuntu bionic main
+/etc/apt/sources.list.d/embrosyn-ubuntu-cinnamon-bionic.list.save:# deb http://ppa.launchpad.net/embrosyn/cinnamon/ubuntu bionic main
+/etc/apt/sources.list.d/embrosyn-ubuntu-cinnamon-bionic.list.save:# deb-src http://ppa.launchpad.net/embrosyn/cinnamon/ubuntu bionic main
+/etc/apt/sources.list.d/fish-shell-ubuntu-release-3-bionic.list:deb http://ppa.launchpad.net/fish-shell/release-3/ubuntu bionic main
+/etc/apt/sources.list.d/fish-shell-ubuntu-release-3-bionic.list:# deb-src http://ppa.launchpad.net/fish-shell/release-3/ubuntu bionic main
+/etc/apt/sources.list.d/fish-shell-ubuntu-release-3-bionic.list.save:deb http://ppa.launchpad.net/fish-shell/release-3/ubuntu bionic main
+/etc/apt/sources.list.d/fish-shell-ubuntu-release-3-bionic.list.save:# deb-src http://ppa.launchpad.net/fish-shell/release-3/ubuntu bionic main
+/etc/apt/sources.list.d/gambas-team-ubuntu-gambas3-bionic.list:deb http://ppa.launchpad.net/gambas-team/gambas3/ubuntu bionic main
+/etc/apt/sources.list.d/gambas-team-ubuntu-gambas3-bionic.list:# deb-src http://ppa.launchpad.net/gambas-team/gambas3/ubuntu bionic main
+/etc/apt/sources.list.d/gambas-team-ubuntu-gambas3-bionic.list.save:deb http://ppa.launchpad.net/gambas-team/gambas3/ubuntu bionic main
+/etc/apt/sources.list.d/gambas-team-ubuntu-gambas3-bionic.list.save:# deb-src http://ppa.launchpad.net/gambas-team/gambas3/ubuntu bionic main
+/etc/apt/sources.list.d/gezakovacs-ubuntu-ppa-bionic.list:deb http://ppa.launchpad.net/gezakovacs/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/gezakovacs-ubuntu-ppa-bionic.list:# deb-src http://ppa.launchpad.net/gezakovacs/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/gezakovacs-ubuntu-ppa-bionic.list.save:deb http://ppa.launchpad.net/gezakovacs/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/gezakovacs-ubuntu-ppa-bionic.list.save:# deb-src http://ppa.launchpad.net/gezakovacs/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/gnome3-team-ubuntu-gnome3-bionic.list:deb http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu bionic main
+/etc/apt/sources.list.d/gnome3-team-ubuntu-gnome3-bionic.list:# deb-src http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu bionic main
+/etc/apt/sources.list.d/gnome3-team-ubuntu-gnome3-bionic.list.save:deb http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu bionic main
+/etc/apt/sources.list.d/gnome3-team-ubuntu-gnome3-bionic.list.save:# deb-src http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu bionic main
+/etc/apt/sources.list.d/google-chrome-beta.list.save:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/google-chrome-beta.list.save:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/google-chrome-beta.list.save:deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+/etc/apt/sources.list.d/google-chrome.list:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/google-chrome.list:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/google-chrome.list:deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+/etc/apt/sources.list.d/google-chrome.list.save:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/google-chrome.list.save:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/google-chrome.list.save:deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+/etc/apt/sources.list.d/kdenlive-ubuntu-kdenlive-stable-bionic.list:deb http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu bionic main
+/etc/apt/sources.list.d/kdenlive-ubuntu-kdenlive-stable-bionic.list:# deb-src http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu bionic main
+/etc/apt/sources.list.d/kdenlive-ubuntu-kdenlive-stable-bionic.list.save:deb http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu bionic main
+/etc/apt/sources.list.d/kdenlive-ubuntu-kdenlive-stable-bionic.list.save:# deb-src http://ppa.launchpad.net/kdenlive/kdenlive-stable/ubuntu bionic main
+/etc/apt/sources.list.d/lutris-team-ubuntu-lutris-bionic.list:deb http://ppa.launchpad.net/lutris-team/lutris/ubuntu bionic main
+/etc/apt/sources.list.d/lutris-team-ubuntu-lutris-bionic.list:# deb-src http://ppa.launchpad.net/lutris-team/lutris/ubuntu bionic main
+/etc/apt/sources.list.d/lutris-team-ubuntu-lutris-bionic.list.save:deb http://ppa.launchpad.net/lutris-team/lutris/ubuntu bionic main
+/etc/apt/sources.list.d/lutris-team-ubuntu-lutris-bionic.list.save:# deb-src http://ppa.launchpad.net/lutris-team/lutris/ubuntu bionic main
+/etc/apt/sources.list.d/mc3man-ubuntu-mpv-tests-bionic.list:deb http://ppa.launchpad.net/mc3man/mpv-tests/ubuntu bionic main
+/etc/apt/sources.list.d/mc3man-ubuntu-mpv-tests-bionic.list:# deb-src http://ppa.launchpad.net/mc3man/mpv-tests/ubuntu bionic main
+/etc/apt/sources.list.d/mc3man-ubuntu-mpv-tests-bionic.list.save:deb http://ppa.launchpad.net/mc3man/mpv-tests/ubuntu bionic main
+/etc/apt/sources.list.d/mc3man-ubuntu-mpv-tests-bionic.list.save:# deb-src http://ppa.launchpad.net/mc3man/mpv-tests/ubuntu bionic main
+/etc/apt/sources.list.d/megasync.list:# deb https://mega.nz/linux/MEGAsync/xUbuntu_18.04/ ./
+/etc/apt/sources.list.d/megasync.list.save:# deb https://mega.nz/linux/MEGAsync/xUbuntu_18.04/ ./
+/etc/apt/sources.list.d/mono-official-vs.list:deb https://download.mono-project.com/repo/ubuntu vs-bionic main
+/etc/apt/sources.list.d/mono-official-vs.list.save:deb https://download.mono-project.com/repo/ubuntu vs-bionic main
+/etc/apt/sources.list.d/nodesource.list:deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x bionic main
+/etc/apt/sources.list.d/nodesource.list:deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x bionic main
+/etc/apt/sources.list.d/nodesource.list.save:deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x bionic main
+/etc/apt/sources.list.d/nodesource.list.save:deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x bionic main
+/etc/apt/sources.list.d/obsproject-ubuntu-obs-studio-bionic.list:deb http://ppa.launchpad.net/obsproject/obs-studio/ubuntu bionic main
+/etc/apt/sources.list.d/obsproject-ubuntu-obs-studio-bionic.list:# deb-src http://ppa.launchpad.net/obsproject/obs-studio/ubuntu bionic main
+/etc/apt/sources.list.d/obsproject-ubuntu-obs-studio-bionic.list.save:deb http://ppa.launchpad.net/obsproject/obs-studio/ubuntu bionic main
+/etc/apt/sources.list.d/obsproject-ubuntu-obs-studio-bionic.list.save:# deb-src http://ppa.launchpad.net/obsproject/obs-studio/ubuntu bionic main
+/etc/apt/sources.list.d/ondrej-ubuntu-php-bionic.list:deb http://ppa.launchpad.net/ondrej/php/ubuntu bionic main
+/etc/apt/sources.list.d/ondrej-ubuntu-php-bionic.list:# deb-src http://ppa.launchpad.net/ondrej/php/ubuntu bionic main
+/etc/apt/sources.list.d/ondrej-ubuntu-php-bionic.list.save:deb http://ppa.launchpad.net/ondrej/php/ubuntu bionic main
+/etc/apt/sources.list.d/ondrej-ubuntu-php-bionic.list.save:# deb-src http://ppa.launchpad.net/ondrej/php/ubuntu bionic main
+/etc/apt/sources.list.d/slack.list:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/slack.list:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/slack.list:deb https://packagecloud.io/slacktechnologies/slack/debian/ jessie main
+/etc/apt/sources.list.d/slack.list.save:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/slack.list.save:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/slack.list.save:deb https://packagecloud.io/slacktechnologies/slack/debian/ jessie main
+/etc/apt/sources.list.d/steam.list:deb [arch=amd64,i386] https://repo.steampowered.com/steam/ stable steam
+/etc/apt/sources.list.d/steam.list:deb-src [arch=amd64,i386] https://repo.steampowered.com/steam/ stable steam
+/etc/apt/sources.list.d/steam.list:
+/etc/apt/sources.list.d/steam.list:# Uncomment these lines to try the beta version of the Steam launcher
+/etc/apt/sources.list.d/steam.list:# deb [arch=amd64,i386] https://repo.steampowered.com/steam/ beta steam
+/etc/apt/sources.list.d/steam.list:# deb-src [arch=amd64,i386] https://repo.steampowered.com/steam/ beta steam
+/etc/apt/sources.list.d/steam.list.save:deb [arch=amd64,i386] https://repo.steampowered.com/steam/ stable steam
+/etc/apt/sources.list.d/steam.list.save:deb-src [arch=amd64,i386] https://repo.steampowered.com/steam/ stable steam
+/etc/apt/sources.list.d/steam.list.save:
+/etc/apt/sources.list.d/steam.list.save:# Uncomment these lines to try the beta version of the Steam launcher
+/etc/apt/sources.list.d/steam.list.save:# deb [arch=amd64,i386] https://repo.steampowered.com/steam/ beta steam
+/etc/apt/sources.list.d/steam.list.save:# deb-src [arch=amd64,i386] https://repo.steampowered.com/steam/ beta steam
+/etc/apt/sources.list.d/surfshark.list:deb https://ocean.surfshark.com/debian stretch main
+/etc/apt/sources.list.d/surfshark.list.save:deb https://ocean.surfshark.com/debian stretch main
+/etc/apt/sources.list.d/teamviewer.list:###   TeamViewer DEB repository list
+/etc/apt/sources.list.d/teamviewer.list:
+/etc/apt/sources.list.d/teamviewer.list:### NOTE: Manual changes to this file
+/etc/apt/sources.list.d/teamviewer.list:###        - prevent it from being updated by TeamViewer package updates
+/etc/apt/sources.list.d/teamviewer.list:###        - will be lost after using the 'teamviewer repo' command
+/etc/apt/sources.list.d/teamviewer.list:###       The original file can be restored with this command:
+/etc/apt/sources.list.d/teamviewer.list:###       cp /opt/teamviewer/tv_bin/script/teamviewer.list /etc/apt/sources.list.d/teamviewer.list
+/etc/apt/sources.list.d/teamviewer.list:###       which has the same effect as 'teamviewer repo default'
+/etc/apt/sources.list.d/teamviewer.list:
+/etc/apt/sources.list.d/teamviewer.list:### NOTE: It is preferred to use the following commands to edit this file:
+/etc/apt/sources.list.d/teamviewer.list:###       teamviewer repo                - show current repository configuration
+/etc/apt/sources.list.d/teamviewer.list:###       teamviewer repo default        - restore default configuration
+/etc/apt/sources.list.d/teamviewer.list:###       teamviewer repo disable        - disable the repository
+/etc/apt/sources.list.d/teamviewer.list:###       teamviewer repo stable         - make all regular TeamViewer packages available (default)
+/etc/apt/sources.list.d/teamviewer.list:###       teamviewer repo preview        - additionally, make feature preview packages available
+/etc/apt/sources.list.d/teamviewer.list:###       teamviewer repo development    - additionally, make the latest development packages available
+/etc/apt/sources.list.d/teamviewer.list:
+/etc/apt/sources.list.d/teamviewer.list:
+/etc/apt/sources.list.d/teamviewer.list:deb https://linux.teamviewer.com/deb stable main
+/etc/apt/sources.list.d/teamviewer.list:
+/etc/apt/sources.list.d/teamviewer.list:# deb https://linux.teamviewer.com/deb preview main
+/etc/apt/sources.list.d/teamviewer.list:# deb https://linux.teamviewer.com/deb development main
+/etc/apt/sources.list.d/teamviewer.list.save:###   TeamViewer DEB repository list
+/etc/apt/sources.list.d/teamviewer.list.save:
+/etc/apt/sources.list.d/teamviewer.list.save:### NOTE: Manual changes to this file
+/etc/apt/sources.list.d/teamviewer.list.save:###        - prevent it from being updated by TeamViewer package updates
+/etc/apt/sources.list.d/teamviewer.list.save:###        - will be lost after using the 'teamviewer repo' command
+/etc/apt/sources.list.d/teamviewer.list.save:###       The original file can be restored with this command:
+/etc/apt/sources.list.d/teamviewer.list.save:###       cp /opt/teamviewer/tv_bin/script/teamviewer.list /etc/apt/sources.list.d/teamviewer.list
+/etc/apt/sources.list.d/teamviewer.list.save:###       which has the same effect as 'teamviewer repo default'
+/etc/apt/sources.list.d/teamviewer.list.save:
+/etc/apt/sources.list.d/teamviewer.list.save:### NOTE: It is preferred to use the following commands to edit this file:
+/etc/apt/sources.list.d/teamviewer.list.save:###       teamviewer repo                - show current repository configuration
+/etc/apt/sources.list.d/teamviewer.list.save:###       teamviewer repo default        - restore default configuration
+/etc/apt/sources.list.d/teamviewer.list.save:###       teamviewer repo disable        - disable the repository
+/etc/apt/sources.list.d/teamviewer.list.save:###       teamviewer repo stable         - make all regular TeamViewer packages available (default)
+/etc/apt/sources.list.d/teamviewer.list.save:###       teamviewer repo preview        - additionally, make feature preview packages available
+/etc/apt/sources.list.d/teamviewer.list.save:###       teamviewer repo development    - additionally, make the latest development packages available
+/etc/apt/sources.list.d/teamviewer.list.save:
+/etc/apt/sources.list.d/teamviewer.list.save:
+/etc/apt/sources.list.d/teamviewer.list.save:deb https://linux.teamviewer.com/deb stable main
+/etc/apt/sources.list.d/teamviewer.list.save:
+/etc/apt/sources.list.d/teamviewer.list.save:# deb https://linux.teamviewer.com/deb preview main
+/etc/apt/sources.list.d/teamviewer.list.save:# deb https://linux.teamviewer.com/deb development main
+/etc/apt/sources.list.d/teejee2008-ubuntu-ppa-bionic.list:deb http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/teejee2008-ubuntu-ppa-bionic.list:# deb-src http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/teejee2008-ubuntu-ppa-bionic.list.save:deb http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/teejee2008-ubuntu-ppa-bionic.list.save:# deb-src http://ppa.launchpad.net/teejee2008/ppa/ubuntu bionic main
+/etc/apt/sources.list.d/umang-ubuntu-indicator-stickynotes-bionic.list:deb http://ppa.launchpad.net/umang/indicator-stickynotes/ubuntu bionic main
+/etc/apt/sources.list.d/umang-ubuntu-indicator-stickynotes-bionic.list:# deb-src http://ppa.launchpad.net/umang/indicator-stickynotes/ubuntu bionic main
+/etc/apt/sources.list.d/umang-ubuntu-indicator-stickynotes-bionic.list.save:deb http://ppa.launchpad.net/umang/indicator-stickynotes/ubuntu bionic main
+/etc/apt/sources.list.d/umang-ubuntu-indicator-stickynotes-bionic.list.save:# deb-src http://ppa.launchpad.net/umang/indicator-stickynotes/ubuntu bionic main
+/etc/apt/sources.list.d/vscode.list:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/vscode.list:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/vscode.list:deb [arch=amd64,arm64,armhf] http://packages.microsoft.com/repos/code stable main
+/etc/apt/sources.list.d/vscode.list.save:### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+/etc/apt/sources.list.d/vscode.list.save:# You may comment out this entry, but any other modifications may be lost.
+/etc/apt/sources.list.d/vscode.list.save:deb [arch=amd64,arm64,armhf] http://packages.microsoft.com/repos/code stable main
+/etc/apt/sources.list.d/wireshark-dev-ubuntu-stable-bionic.list:deb http://ppa.launchpad.net/wireshark-dev/stable/ubuntu bionic main
+/etc/apt/sources.list.d/wireshark-dev-ubuntu-stable-bionic.list:# deb-src http://ppa.launchpad.net/wireshark-dev/stable/ubuntu bionic main
+/etc/apt/sources.list.d/wireshark-dev-ubuntu-stable-bionic.list.save:deb http://ppa.launchpad.net/wireshark-dev/stable/ubuntu bionic main
+/etc/apt/sources.list.d/wireshark-dev-ubuntu-stable-bionic.list.save:# deb-src http://ppa.launchpad.net/wireshark-dev/stable/ubuntu bionic main
+/etc/apt/sources.list.d/yarn.list:deb https://dl.yarnpkg.com/debian/ stable main
+/etc/apt/sources.list.d/yarn.list.save:deb https://dl.yarnpkg.com/debian/ stable main

@@ -1,0 +1,75 @@
+[Accessories]
+multisystem
+shutter
+tuxcut
+winetricks
+
+[Education]
+anki
+fahcontrol
+heimer
+
+[Games]
+steam
+tetr.io
+
+[Graphics]
+gimp
+krita
+inkscape
+
+[Internet]
+anydesk
+bmon
+chrome
+chromium
+discord
+dropbox
+filezilla
+megasync
+firefox
+packet tracker 7.2.2
+remmina
+remote desktop viewer
+slack
+telegram
+wireshark
+youtube dl gui
+地牛wake up!
+
+[Office]
+libreoffice
+onlyoffice
+obsidian
+
+[Other]
+airtest ide
+burp suite community edition
+jdgui
+scrcpy
+tableplus
+
+[Programming]
+db browser for sqlite
+monodevelop
+postman
+qt creator
+vscode
+
+[Sound & Video]
+audacity
+kazam
+kdenlive
+mpv
+vlc
+
+[Administration]
+boinc manager
+fcitx
+fish
+gparted
+htop
+konsole
+ksysguard
+system monitor
+terminal
